@@ -8,7 +8,7 @@ app.set('views', __dirname + '/views')
 app.set('view engine', 'ejs')
 
 app.get('/', (req, res, next) => {
-    res.end('<h1>Xin chao ban</h1>')
+    res.end('<h1>Xin chao ban, hom nay la thu 4</h1>')
 })
 
 app.listen(port)
